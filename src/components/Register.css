@@ -1,0 +1,29 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.register-form  {
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    font-style: italic;
+    opacity: 0.5;
+}
+
+button {
+    align-self: center;
+}
