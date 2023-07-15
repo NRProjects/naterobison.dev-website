@@ -1,11 +1,11 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { ChangeEvent, FormEvent, useState } from 'react';
 import './Register.css'
 
 function Register() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
         setEmail(e.target.value);
