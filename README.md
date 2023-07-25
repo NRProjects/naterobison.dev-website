@@ -1,6 +1,7 @@
 # naterobison.dev
 
 # TODO:
+  - Front page
   - Change the favicon
   - Services tab
   - About
