@@ -1,3 +1,62 @@
+
 :root {
     font-family: Helvetica, sans-serif;
+}
+
+.main-layout {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    pad: 0, 8rem;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 80%;
+    gap: 1rem;
+    font-family: var(--light), sans-serif;
+    font-size: x-large;
+    /* margin-bottom: 600px; */
+}
+
+.hello {
+    font-family: var(--light);
+    
+}
+
+.name {
+    font-family: var(--bold);
+}
+
+.title {
+    font-family: var(--regular);
+    color: var(--color-primary);
+}
+
+.desc {
+    font-family: var(--light);
+    width: 60%;
+
+}
+
+.about-me-container {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    /* justify-content: flex-end; */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.column h1 {
+    color: var(--color-primary);
+    margin: 0;
 }

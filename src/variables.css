@@ -1,0 +1,50 @@
+@font-face {
+  font-family: var(--light);
+  src: url('/src/assets/fonts/Quicksand-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: var(--regular);
+  src: url('/src/assets/fonts/Quicksand-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: var(--medium);
+  src: url('/src/assets/fonts/Quicksand-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: var(--semibold);
+  src: url('/src/assets/fonts/Quicksand-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: var(--bold);
+  src: url('/src/assets/fonts/Quicksand-Bold.ttf') format('truetype');
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  margin: 0 8rem;
+  font-size: larger;
+
+
+  --color-primary: #26a8ff;
+  --color-text: white;
+
+  --light: 'Quicksand-Light';
+  --regular: 'Quicksand-Regular';
+  --medium: 'Quicksand-Medium';
+  --semibold: 'Quicksand-SemiBold';
+  --bold: 'Quicksand-Bold';
+}
+

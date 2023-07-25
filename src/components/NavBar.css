@@ -23,13 +23,6 @@
     src: url('/src/assets/fonts/Quicksand-Bold.ttf') format('truetype');
 }
 
-:root {
-    --color-primary: #26a8ff;
-    --color-text: white;
-    
-    font-size: larger;
-}
-
 .navbar {
     display: flex;
     position: absolute;
@@ -57,17 +50,6 @@
 
 .navbar-right a:hover {
     color: gray;
-}
-
-@keyframes fadeExpand {
-    0% {
-        transform: scale(0.9);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
 }
 
 .navbar-item {
