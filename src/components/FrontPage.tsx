@@ -12,7 +12,20 @@ function FrontPage() {
                 </span>
             </div>
 
-            
+            {/* <div className='about-me-container'>
+                <div className='column'>
+                    <h1>Past</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae distinctio rem odit harum labore! Ducimus.</p>
+                </div>
+                <div className='column'>
+                    <h1>Present</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae distinctio rem odit harum labore! Ducimus.</p>
+                </div>
+                <div className='column'>
+                    <h1>Future</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae distinctio rem odit harum labore! Ducimus.</p>
+                </div>
+            </div> */}
         </div>
     );
 }
